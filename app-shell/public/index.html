@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Single-SPA Example</title>
+
+    <!-- SPA -->
+
+    <!-- PROD e bundled -->
+    <!-- system -->
+    <!-- amd -->
+    <!-- single-spa -->
+
+    <!-- test parcel inside -->
+    <!-- error isolation -->
+    <!-- lazy -->
+    <!-- autentication -->
+    <!-- routing mana -->
+
+    <!--     aNGULAR prod-->
+    <script src='https://unpkg.com/core-js-bundle@3.1.4/minified.js'></script>
+    <script src="https://unpkg.com/zone.js@0.10.3/dist/zone.js"></script>
+
+    <meta name="importmap-type" content="systemjs-importmap"/>
+    <!-- MFE loading for prod or local -->
+    <% if (isLocal) { %>
+    <script type="systemjs-importmap">
+    {
+      "imports": {
+        "root-config": "//localhost:9001/root-config.js",
+        "navbar": "http://localhost:4200/main.js"
+      }
+    }
+
+    </script>
+    <% } else { %>
+    <!-- <script type="systemjs-importmap" -->
+    <!--         src="https://storage.googleapis.com/polyglot.microfrontends.app/importmap.json"></script> -->
+    <% } %>
+
+    <!-- Module formats imports -->
+    <% if (isLocal) { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
+    <% } else { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
+    <% } %>
+
+
+
+</head>
+<body>
+<script>
+    System.import('root-config');
+</script>
+<import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
+<div id="single-spa-application:navbar"></div>
+</body>
+</html>

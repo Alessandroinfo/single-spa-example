@@ -1,0 +1,22 @@
+{
+  "name": "app-shell",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve --port 9001 --env isLocal",
+    "start-prod": "npx http-server ./dist",
+    "build:webpack": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/systemjs": "^6.13.1",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.4"
+  }
+}
