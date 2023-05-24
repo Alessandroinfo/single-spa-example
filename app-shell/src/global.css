@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.root {
+    display: flex;
+}
+
+.nav {
+    width: 5rem;
+}
+
+.section {
+    background: #aafff9;
+    flex: 1;
+}

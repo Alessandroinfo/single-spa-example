@@ -41,13 +41,35 @@ The example included in this project demonstrates the usage of Single-spa to cre
 
 In the example, we have two micro front-end applications:
 
-1.  App1: This micro front-end represents a header component that provides navigation links to different sections of the application.
-2.  App2: This micro front-end represents a section of the application that can be dynamically loaded and displayed based on user interaction.
+1.  Navbar: This micro front-end represents a header component that provides navigation links to different sections of the application.
+2.  Section: This micro front-end represents a section of the application that can be dynamically loaded and displayed based
+   on user interaction.
+3. Form: It's a nested micro front-end.
 
-To run the example, follow the "Getting Started" section above, and navigate to the respective URLs for App1 and App2. You will see the header component from App1 and the dynamically loaded section from App2.
+To run the example, follow the "Getting Started" section above, and navigate to the respective URLs for App1 and App2.
+You will see the header component from App1 and the dynamically loaded section from App2.
 
-We hope this example gives you a clear understanding of how to structure and integrate micro front-ends using Single-spa!
+We hope this example gives you a clear understanding of how to structure and integrate micro front-ends using
+Single-spa!
 
 * * * * *
 
-Feel free to explore the code, make modifications, and adapt it to suit your specific needs. If you encounter any issues or have any questions, please don't hesitate to reach out. Happy coding! 😄
+Feel free to explore the code, make modifications, and adapt it to suit your specific needs. If you encounter any issues
+or have any questions, please don't hesitate to reach out. Happy coding! 😄
+
+### TODO
+
+    <!-- SPA -->
+
+    <!-- PROD e bundled -->
+    <!-- system -->
+    <!-- amd -->
+    <!-- single-spa -->
+
+    <!-- test parcel inside -->
+    <!-- error isolation -->
+    <!-- error system management -->
+
+    <!-- lazy -->
+    <!-- autentication -->
+    <!-- routing mana -->
