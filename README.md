@@ -46,8 +46,8 @@ In the example, we have two micro front-end applications:
    on user interaction.
 3. Form: It's a nested micro front-end.
 
-To run the example, follow the "Getting Started" section above, and navigate to the respective URLs for App1 and App2.
-You will see the header component from App1 and the dynamically loaded section from App2.
+To run the example, follow the "Getting Started" section above, and navigate to the respective URLs for Navbar and Section.
+You will see the header component from Navbar and the dynamically loaded section from Section.
 
 We hope this example gives you a clear understanding of how to structure and integrate micro front-ends using
 Single-spa!

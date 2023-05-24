@@ -38,7 +38,7 @@
               "libraryName": "form",
               "libraryTarget": "umd"
             },
-            "baseUrl": "http://localhost:4300/"
+            "baseHref": "http://localhost:4300/"
           },
           "configurations": {
             "production": {

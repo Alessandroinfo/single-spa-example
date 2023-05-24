@@ -6,6 +6,7 @@ registerApplication(
     () => System.import("navbar"),
     location => location.pathname.startsWith('/')
 )
+
 registerApplication(
     'section',
     () => System.import("section"),

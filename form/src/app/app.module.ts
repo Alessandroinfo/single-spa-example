@@ -1,18 +1,18 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {APP_BASE_HREF} from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
-  providers: [],
+  // TODO Fix redirect for form when go to section
+  providers: [{provide: APP_BASE_HREF, useValue: '/section'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
