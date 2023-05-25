@@ -16,18 +16,15 @@
     <!-- MFE loading for prod or local -->
     <% if (isLocal) { %>
         <script type="systemjs-importmap">
-    {
-      "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.1/lib/system/single-spa.min.js",
-        "@company/root-config": "http://localhost:9000/company-root-config.js",
-        "section": "//localhost:4100/main.js",
-        "navbar": "//localhost:4200/main.js",
-        "form": "//localhost:4300/main.js"
-      }
-    }
-
-
-
+            {
+              "imports": {
+                "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.1/lib/system/single-spa.min.js",
+                "@company/root-config": "http://localhost:9000/company-root-config.js",
+                "section": "//localhost:4100/main.js",
+                "navbar": "//localhost:4200/main.js",
+                "form": "//localhost:4300/main.js"
+              }
+            }
         </script>
     <% } %>
 

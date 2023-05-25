@@ -11,7 +11,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
   providers: [
-    {provide: APP_BASE_HREF, useValue: '/section'},
+    {provide: APP_BASE_HREF, useValue: '/section/'},
   ]
 })
 export class AppRoutingModule {
