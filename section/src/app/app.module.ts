@@ -15,7 +15,7 @@ import {EmptyRouteComponent} from './empty-route/empty-route.component';
   imports: [
     RouterModule,
     BrowserModule,
-    // FormModule,
+    FormModule,
     AppRoutingModule
   ],
   providers: [],
