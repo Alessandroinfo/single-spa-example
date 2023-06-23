@@ -13,10 +13,9 @@ Getting Started
 
 To get started with the Single-spa Example project, follow the steps below:
 
-1.  Clone this repository to your local machine.
-2.  Install the required dependencies by running `npm install` in the project root directory.
-3.  Start the development server by running `npm start`.
-4.  Open your browser and navigate to the provided URL to see the Single-spa Example in action!
+1.  Run `Run everything.sh`
+
+Run this `Reset ports.sh` before to ensure all port are available: `lsof -t -i:9000 |  xargs kill -9`
 
 Documentation
 -------------
@@ -56,6 +55,9 @@ Single-spa!
 
 Feel free to explore the code, make modifications, and adapt it to suit your specific needs. If you encounter any issues
 or have any questions, please don't hesitate to reach out. Happy coding! 😄
+
+
+
 
 ### TODO
 
