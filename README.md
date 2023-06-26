@@ -39,18 +39,12 @@ If you encounter any issues or have any questions, please don't hesitate to reac
 
 
 ### TODO
-
-    <!-- SPA -->
-
-    <!-- PROD e bundled -->
-    <!-- system -->
-    <!-- amd -->
-    <!-- single-spa -->
-
-    <!-- test parcel inside -->
-    <!-- error isolation -->
-    <!-- error system management -->
-
-    <!-- lazy -->
-    <!-- autentication -->
-    <!-- routing mana -->
+* Production and Bundled
+* System
+* Amd
+* Test Parcel Inside
+* Error Isolation
+* Error System Management
+* Lazy
+* Authentication
+* Routing Management
