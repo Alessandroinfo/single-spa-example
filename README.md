@@ -3,11 +3,6 @@ Single-spa Example Project 🚀
 
 Welcome to the Single-spa Example project! This repository serves as a demonstration of how to build a micro front-end architecture using Single-spa. 🏗️
 
-Introduction
-------------
-
-👋 Welcome to the Single-spa Example project! This repository showcases an example of creating a modular web application using the micro front-end approach with Single-spa. By dividing your application into smaller, independent applications (micro front-ends), you can achieve better scalability, reusability, and maintainability.
-
 Getting Started
 ---------------
 
