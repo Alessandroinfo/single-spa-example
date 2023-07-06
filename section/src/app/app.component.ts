@@ -5,10 +5,9 @@ import {Component} from '@angular/core';
   template: `
     <h1>Section</h1>
 
-    <a routerLink="/form">Go to form</a>
+    <a routerLink="form">Go to form</a>
     <div>
       <router-outlet></router-outlet>
-      <!-- <app-form></app-form> -->
     </div>
   `,
   styleUrls: ['./app.component.scss']

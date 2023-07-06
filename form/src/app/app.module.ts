@@ -11,8 +11,6 @@ import {APP_BASE_HREF} from '@angular/common';
   imports: [
     BrowserModule
   ],
-  // TODO Fix redirect for form when go to section
-  providers: [{provide: APP_BASE_HREF, useValue: '/section'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
