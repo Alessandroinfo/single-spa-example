@@ -6,12 +6,10 @@ import {Component} from '@angular/core';
     <h1>Section</h1>
 
     <a routerLink="form">Go to form</a>
-    <div>
-      <router-outlet></router-outlet>
-    </div>
+
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'section';
 }

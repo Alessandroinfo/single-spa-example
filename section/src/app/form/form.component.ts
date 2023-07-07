@@ -1,5 +1,4 @@
-import {ChangeDetectorRef, Component, OnDestroy, OnInit} from '@angular/core';
-import {Subject} from 'rxjs';
+import {Component} from '@angular/core';
 import {mountRootParcel} from 'single-spa';
 
 @Component({
@@ -14,24 +13,21 @@ import {mountRootParcel} from 'single-spa';
   `,
   styleUrls: ['form.scss']
 })
-export class FormComponent implements OnInit, OnDestroy {
+export class FormComponent {
   mountRootParcel: typeof import('single-spa').mountRootParcel | null = mountRootParcel;
-  customProps = {
-    hello: 'Hola',
-  };
-  private destroy$ = new Subject<void>();
 
-  constructor(private ref: ChangeDetectorRef) {
+  customProps = {
+    info: {
+      name: 'Alessandro',
+      surname: 'Russo'
+    }
+  };
+
+  constructor() {
   }
 
   async config() {
     return (window as any).System.import('form')
   }
 
-  ngOnInit(): void {
-  }
-
-  ngOnDestroy(): void {
-    this.destroy$.next();
-  }
 }
