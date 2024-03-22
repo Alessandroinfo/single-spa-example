@@ -1,4 +1,4 @@
-Single-spa Example Project 🚀
+Single-spa Example Project with Angular 🚀
 =============================
 
 Welcome to the Single-spa Example project! This repository serves as a demonstration of how to build a micro front-end architecture using Single-spa. 🏗️
